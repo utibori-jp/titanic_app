@@ -1,6 +1,16 @@
 # Machine Learning Web App with Titanic
 <img src = "images/titanic_1.png" height = "200px" width = "600px">
 
+## Direcrtories
+|directory name | explanation|
+|:--                |:--        |
+|code                |python codes of this app|
+|images              |images for README|
+|titanic             |titanic row data|
+
+## Discroption Demo
+![](images/demo.png)
+
 ## Overview
 With this web app, you can learn about machine learning using the Titanic dataset. You can view the training data, visualize it, and use machine learning to make predictions.
 
@@ -12,16 +22,6 @@ You can create a pair plot for several features of your choice by selecting them
 
 ### Prediction
 Select a prediction algorithm from the sidebar. You can then view the training and test scores of the simple model, and determine how well the model is fitting the training data.
-
-## Discroption Demo
-![](images/demo.png)
-
-## Direcrtories
-|directory name | explanation|
-|:--                |:--        |
-|code                |python codes of this app|
-|images              |images for README|
-|titanic             |titanic row data|
 
 ## Planned additional Features
 * Ability to modify the hyperparameter values for each algorithm
