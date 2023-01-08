@@ -1,5 +1,7 @@
 # Machine Learning Web App with Titanic
 ![](images/titanic_1.png)
+<img src = "images/titanic_1.png" width = "320px">
+
 ## Overview
 With this web app, you can learn about machine learning using the Titanic dataset. You can view the training data, visualize it, and use machine learning to make predictions.
 ### Display trian data
