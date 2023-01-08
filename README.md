@@ -1,17 +1,16 @@
 # Machine Learning Web App with Titanic
-
+![](images/titanic_1.png)
 ## Overview
-Tiatanicデータを使った機械学習を体験することができるウェブアプリケーションである。Trainデータの確認、ヴィジュアライズ、機械学習を使った予測の3部構成で作られている。
+With this web app, you can learn about machine learning using the Titanic dataset. You can view the training data, visualize it, and use machine learning to make predictions.
 ### Display trian data
-生データと、一部特徴量の基本統計量を確認することができる。
-確認したい特徴量はサイドバーから指定できる。また、生データの数は、Num of Rowsから選択できる。
+You can view the raw data and basic statistics of selected features by specifying the number of rows to view in the 'num of rows' field. Choose the features you want to analyze from the sidebar.
 ### Visualize features
-特徴量をサイドバーから指定すると、指定された特徴量を用いたペアプロットを作成できる。
+You can create a pair plot for several features of your choice by selecting them from the sidebar.
 ### Prediction
-予測結果はTrain scoreとTest scoreが表示される。シンプルな予測精度と、化学週の程度を確認することができる。
+Select a prediction algorithm from the sidebar. You can then view the training and test scores of the simple model, and determine how well the model is fitting the training data.
 ## Discroption Demo
 ![](images/demo.png)
-## 追加予定の機能
-* アルゴリズムごとのハイパーパラメータの値を変更できるようにする
-* モデルにおける各特徴量の寄与度を確認できるようにする
-* 作成した予測をデータベースに保存し、アンサンブルができるようにする
+## Planned additional Features
+* Ability to modify the hyperparameter values for each algorithm
+* View the contribution of each feature in the model
+* Save created predictions to a database for ensemble modeling
